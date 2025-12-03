@@ -13,8 +13,8 @@ export async function POST(request: Request) {
 		}
 
 		const data = await resend.emails.send({
-			from: 'Your Portfolio Contact Form <onboarding@resend.dev>',
-			to: process.env.CONTACT_EMAIL as string, // Your email address
+			from: 'Acme <onboarding@resend.dev>',
+			to: process.env.CONTACT_EMAIL as string, // My email address
 			subject: `New Contact Form Submission from ${name}`,
 			text: `
 				Name: ${name}
