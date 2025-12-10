@@ -4,13 +4,12 @@ export default function SkillsSection() {
 		'Java', 
 		'JavaScript', 
 		'Python', 
-		'SQL',
 
 		// Backend & APIs
 		'Spring Boot',
 		'REST APIs',
-		'JSON / XML',
-		'JWT Authentication',
+		// 'JSON / XML',
+		// 'JWT Authentication',
 
 		// Frontend
 		'HTML',
