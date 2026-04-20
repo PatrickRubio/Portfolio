@@ -1,36 +1,48 @@
 export default function SkillsSection() {
 	const skills = [
 		// Core Languages
-		'Java', 
-		'JavaScript', 
-		'Python', 
-
-		// Backend & APIs
+		'Java',
 		'Spring Boot',
 		'REST APIs',
-		// 'JSON / XML',
-		// 'JWT Authentication',
-
-		// Frontend
+		'SQL',
+		'MySQL',
+		'JavaScript',
+		'Python',
 		'HTML',
 		'CSS',
-		'React',
-		'Angular',
-
-		// Mobile
-		'Android Studio',
-		'XML Layouts',
-
-		// Databases
-		'MySQL',
-		'AWS Dynamo DB',
-		
-		// Cloud & DevOps
 		'AWS Lambda',
 		'AWS API Gateway',
 		'AWS Amplify',
+		'Android Studio',
 		'Docker',
-		'Git',
+		'Git', 
+
+		// // Backend & APIs
+		// 'Spring Boot',
+		// 'REST APIs',
+		// // 'JSON / XML',
+		// // 'JWT Authentication',
+
+		// // Frontend
+		// 'HTML',
+		// 'CSS',
+		// 'React',
+		// 'Angular',
+
+		// // Mobile
+		// 'Android Studio',
+		// 'XML Layouts',
+
+		// // Databases
+		// 'MySQL',
+		// 'AWS Dynamo DB',
+		
+		// // Cloud & DevOps
+		// 'AWS Lambda',
+		// 'AWS API Gateway',
+		// 'AWS Amplify',
+		// 'Docker',
+		// 'Git',
 
 		// Other
 		// 'Agile / Scrum',

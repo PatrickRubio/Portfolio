@@ -5,37 +5,53 @@ export default function ProjectsSection() {
 		{
 			title: 'Vacation Planner – Android Mobile Application',
 			description:
-				'A full Android application built with Java and XML that allows users to browse destinations, manage itineraries, and view excursions. Includes clean UI design, API integration, SQL-backed data, and structured navigation. Demonstrates mobile development, state management, and Android Studio workflow.',
-			image: '/vacationPlanner1.png', 
+				'A full Android application built with Java and XML that allows users to browse destinations, manage itineraries, and view excursions. Includes clean UI design, SQL-backed data, and structured navigation. Demonstrates mobile development and Android Studio workflow.',
+			image: '/vacationPlanner1.png',
 			link: 'https://github.com/PatrickRubio/VacationPlannerMobileApp',
 		},
 		{
 			title: 'Wedding Website – AWS Cloud Full-Stack App',
 			description:
-				'A production-grade website built using HTML, CSS, and JavaScript with full AWS integration. Features a secure RSVP system powered by API Gateway, AWS Lambda (Node.js), and DynamoDB. Hosted on AWS Amplify with custom domain routing via Route 53. Demonstrates backend engineering, cloud architecture, and serverless deployment. Password: Olowalu',
-			image: '/weddingWebsite1.png', 
+				'A production-grade website built using HTML, CSS, and JavaScript with full AWS integration. Features a secure RSVP system powered by API Gateway, AWS Lambda (Node.js), and DynamoDB. Hosted on AWS Amplify with custom domain routing via Route 53.',
+			image: '/weddingWebsite1.png',
 			link: 'https://briannapluspatrick.com',
+		},
+		// {
+		// 	title: 'ReserveNow – Booking & Payments Backend',
+		// 	description:
+		// 		'A production-style backend platform for listings, bookings, and time-based services built with Java, Spring Boot, and SQL. Focused on REST APIs, database design, validation, and scalable backend architecture.',
+		// 	image: '/reserveNow1.png',
+		// 	link: 'https://github.com/PatrickRubio/ReserveNow',
+		// },
+		{
+			title: 'AI Couples Budgeting App',
+			description:
+				'An AI-focused budgeting and finance app for couples currently in development. Designed to support shared expenses, budgeting, savings goals, and smarter financial planning with modern AI-assisted workflows.',
+			image: '/BudgetPair2.png', 
+			link: 'https://github.com/PatrickRubio', 
 		},
 	];
 
 	return (
 		<section className="py-12 sm:py-20">
-			<div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 				<h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6 sm:mb-8 text-center">
 					Featured Projects
 				</h2>
-
-				<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
+				
+   	 			<div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
 					{projects.map((project, index) => (
 						<div
 							key={index}
-							className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+							className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+						>
 							<div className="aspect-video bg-gray-100 dark:bg-gray-700 relative">
 								<Image
 									src={project.image}
 									alt={project.title}
 									fill
-									className="object-cover"/>
+									className="object-cover"
+								/>
 							</div>
 
 							<div className="p-4 sm:p-6">
@@ -52,7 +68,8 @@ export default function ProjectsSection() {
 										href={project.link}
 										target="_blank"
 										rel="noopener noreferrer"
-										className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium text-sm sm:text-base">
+										className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium text-sm sm:text-base"
+									>
 										View Project →
 									</a>
 								</div>

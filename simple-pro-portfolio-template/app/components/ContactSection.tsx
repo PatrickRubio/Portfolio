@@ -45,7 +45,7 @@ export default function ContactSection() {
 					{/* Resume Button */}
 					<div className="flex justify-center gap-4 pt-4">
 						<a
-							href="/Resume - Software Engineer.pdf"
+							href="/Patrick-Rubio-Resume - Software Engineer.pdf"
 							target="_blank"
 							className="px-6 py-2 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-medium rounded hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors inline-flex items-center justify-center gap-2"
 						>
