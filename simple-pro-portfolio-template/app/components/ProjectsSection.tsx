@@ -12,21 +12,21 @@ export default function ProjectsSection() {
 		{
 			title: 'Wedding Website – AWS Cloud Full-Stack App',
 			description:
-				'A production-grade website built using HTML, CSS, and JavaScript with full AWS integration. Features a secure RSVP system powered by API Gateway, AWS Lambda (Node.js), and DynamoDB. Hosted on AWS Amplify with custom domain routing via Route 53.',
+				'A cloud-hosted website built using HTML, CSS, and JavaScript with full AWS integration. Features a secure RSVP system powered by API Gateway, AWS Lambda (Node.js), and DynamoDB. Hosted on AWS Amplify with custom domain routing via Route 53.',
 			image: '/weddingWebsite1.png',
 			link: 'https://briannapluspatrick.com',
 		},
-		// {
-		// 	title: 'ReserveNow – Booking & Payments Backend',
-		// 	description:
-		// 		'A production-style backend platform for listings, bookings, and time-based services built with Java, Spring Boot, and SQL. Focused on REST APIs, database design, validation, and scalable backend architecture.',
-		// 	image: '/reserveNow1.png',
-		// 	link: 'https://github.com/PatrickRubio/ReserveNow',
-		// },
+		{
+			title: 'ReserveNow – Booking & Payments Backend',
+			description:
+				'ReserveNow is a backend Java Spring Boot REST API for a booking and reservation platform. The application allows users to create accounts, log in securely, create listings, and make bookings for available services or spaces.',
+			image: '/reserveNow1.png',
+			link: 'https://github.com/PatrickRubio/ReserveNow-Application',
+		},
 		{
 			title: 'AI Couples Budgeting App',
 			description:
-				'An AI-focused budgeting and finance app for couples currently in development. Designed to support shared expenses, budgeting, savings goals, and smarter financial planning with modern AI-assisted workflows.',
+				'A budgeting and finance app for couples currently in development. Designed to support shared expenses, budgeting goals, and financial planning. It was built with AI-assisted development tools.',
 			image: '/BudgetPair2.png', 
 			link: 'https://github.com/PatrickRubio', 
 		},
@@ -39,7 +39,7 @@ export default function ProjectsSection() {
 					Featured Projects
 				</h2>
 				
-   	 			<div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
+   	 			<div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 sm:gap-8">
 					{projects.map((project, index) => (
 						<div
 							key={index}

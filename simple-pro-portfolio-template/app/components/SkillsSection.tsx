@@ -1,6 +1,5 @@
 export default function SkillsSection() {
 	const skills = [
-		// Core Languages
 		'Java',
 		'Spring Boot',
 		'REST APIs',
@@ -16,36 +15,6 @@ export default function SkillsSection() {
 		'Android Studio',
 		'Docker',
 		'Git', 
-
-		// // Backend & APIs
-		// 'Spring Boot',
-		// 'REST APIs',
-		// // 'JSON / XML',
-		// // 'JWT Authentication',
-
-		// // Frontend
-		// 'HTML',
-		// 'CSS',
-		// 'React',
-		// 'Angular',
-
-		// // Mobile
-		// 'Android Studio',
-		// 'XML Layouts',
-
-		// // Databases
-		// 'MySQL',
-		// 'AWS Dynamo DB',
-		
-		// // Cloud & DevOps
-		// 'AWS Lambda',
-		// 'AWS API Gateway',
-		// 'AWS Amplify',
-		// 'Docker',
-		// 'Git',
-
-		// Other
-		// 'Agile / Scrum',
 	];
 
 	return (

@@ -50,7 +50,7 @@ export const metadata: Metadata = {
 		title: 'Patrick Rubio - Software Engineer Portfolio',
 		description:
 			'Explore the work of Patrick Rubio, a Software Engineer focused on backend development, Android apps, and cloud-based solutions using Java, SQL, and AWS.',
-		url: 'https://your-domain.com',
+		url: 'https://patrick-rubio-portfolio.com/',
 		siteName: 'Patrick Rubio - Portfolio',
 		images: [
 			{

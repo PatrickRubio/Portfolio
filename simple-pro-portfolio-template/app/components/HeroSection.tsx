@@ -11,8 +11,8 @@ export default function HeroSection() {
 					<Image
 						src="/ProfilePhoto2.jpg"
 						alt="Patrick Rubio"
-						width={120}
-						height={120}
+						width={150}
+						height={150}
 						className="rounded-full mx-auto border-4 border-gray-50 dark:border-gray-700 shadow-lg"
 					/>
 				</div>
@@ -26,13 +26,13 @@ export default function HeroSection() {
 				<p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-6 sm:mb-8">
 					Software Engineer • Backend & Full-Stack Development
 				</p>
-
+			
 				{/* Summary */}
 				<p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto text-sm sm:text-base px-4">
-					Software Engineer with hands on experience building production ready applications using
-					Java, Android Studio, JavaScript, and AWS. I focus on creating clean, scalable, and
-					reliable systems from cloud-powered backend APIs to polished user experiences. Passionate
-					about solving real problems, learning quickly, and delivering software that works.
+					Software Engineer with hands-on experience building backend and full-stack applications using Java, Spring Boot, SQL, and AWS.
+					I focus on clean architecture, scalable REST APIs, and cloud-deployed systems.
+					I am a former Starbucks Store Manager that bring both technical skill and real-world 
+					leadership to every team I join. Passionate about solving real problems, learning quickly, and delivering software that works.
 				</p>
 			</div>
 		</section>
