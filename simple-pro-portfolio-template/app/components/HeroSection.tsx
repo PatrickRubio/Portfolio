@@ -24,15 +24,14 @@ export default function HeroSection() {
 
 				{/* Title */}
 				<p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-6 sm:mb-8">
-					Software Engineer • Backend & Full-Stack Development
+					Software Engineer • Backend, Full-Stack & Cloud Development
 				</p>
 			
 				{/* Summary */}
 				<p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto text-sm sm:text-base px-4">
-					Software Engineer with hands-on experience building backend and full-stack applications using Java, Spring Boot, SQL, and AWS.
-					I focus on clean architecture, scalable REST APIs, and cloud-deployed systems.
-					I am a former Starbucks Store Manager that bring both technical skill and real-world 
-					leadership to every team I join. Passionate about solving real problems, learning quickly, and delivering software that works.
+					Software engineer building backend, cloud, mobile, and full-stack applications using Java, Spring Boot, SQL, TypeScript, React Native, and AWS. 
+					I am the creator of BudgetPair, a privacy-focused budgeting app for couples, and have also developed REST APIs, serverless applications, and native Android software. 
+					As a former Starbucks Store Manager who led a team of more than 30 employees, I value technical problem-solving, clear communication, strong leadership, and taking ownership of my work.
 				</p>
 			</div>
 		</section>
