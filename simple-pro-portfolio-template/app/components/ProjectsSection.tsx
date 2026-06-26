@@ -18,7 +18,7 @@ export default function ProjectsSection() {
 				'Upstash Redis',
 				'RevenueCat',
 			],
-			disabled: true,
+			disabled: false,
 		},
 		{
 			title: 'ReserveNow – Booking System Backend',
