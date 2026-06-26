@@ -7,8 +7,8 @@ export default function ProjectsSection() {
 			description:
 				'A privacy-focused, local-first budgeting application that helps couples organize shared finances. Built with React Native, Expo, and TypeScript, with offline functionality, optional Google and Apple sign-in, temporary couple synchronization, and RevenueCat-powered lifetime Pro access.',
 			image: '/BudgetPair Promo 1.1.png',
-			link: '#',
-			linkLabel: 'App Store Coming Soon',
+			link: 'https://apps.apple.com/us/app/budgetpair-couples-budgeting/id6779858073',
+			linkLabel: 'View on Apple App Store',
 			technologies: [
 				'React Native',
 				'Expo',
