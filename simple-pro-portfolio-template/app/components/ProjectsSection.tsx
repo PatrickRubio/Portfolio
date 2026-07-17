@@ -37,9 +37,9 @@ export default function ProjectsSection() {
 			],
 		},
 		{
-			title: 'Wedding RSVP Platform – AWS Serverless App',
+			title: 'Wedding Website & RSVP Platform – AWS Serverless App',
 			description:
-				'A full-stack RSVP platform used by more than 100 wedding guests. Features attendance tracking, meal selections, dietary restrictions, plus-one management, and event-specific responses through a responsive frontend and serverless AWS backend. Password: Olowalu',
+				'A full-stack Website & RSVP platform used by more than 100 wedding guests. Features attendance tracking, meal selections, dietary restrictions, plus-one management, and event-specific responses through a responsive frontend and serverless AWS backend. Password: Olowalu',
 			image: '/weddingWebsite1.png',
 			link: 'https://briannapluspatrick.com',
 			linkLabel: 'Visit Live Website',
